@@ -13,7 +13,7 @@ function res = phase(imdata)
   %figure(cont1+1);
   %imshow(abs(filtereddata1),[]);
   
-  threshold = max(max(filtereddata1))/(2.0+9/5)
+  threshold = max(max(filtereddata1))/(2.0+9/5);
   filtereddata1_aft = regionSegment(filtereddata1,threshold);
   
   %{

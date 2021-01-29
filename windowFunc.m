@@ -54,11 +54,13 @@ function pass = windowFunc(graydata,phaseenh)
     endwhile
     row=row+1;
   endwhile
+  
   %minleft/s<0.20&&minright/s<0.20
   if(!((minleft/s<0.12)&&(minright/s<0.12)))
     pass = 0;
     return
   endif
+  
   %res = [minleft/s,minright/s];
   %%STEP2通過
   nose = graydata(floor(3*sizey/8):floor(63*sizey/100),floor(19*sizex/50):floor(31*sizex/50));
@@ -96,7 +98,6 @@ function pass = windowFunc(graydata,phaseenh)
     row = row+1;
   endwhile
   
-  min_mouth/s_mouth
   if(min_mouth/s_mouth > 0.53)
     pass = 0;
     return

@@ -1,50 +1,55 @@
 clear all;
 close all;
 
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=0
+Now = 0
 wrapped("sample0.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=1
+
+now = 1
 wrapped("sample1.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=2
+
+now = 2
 wrapped("sample2.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=3
+
+
+now = 3
 wrapped("sample3.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=4
+
+now = 4
 wrapped("sample4.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=0
+
+now = 5
 wrapped("sample5.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=6
+
+now = 6
 wrapped("sample6.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=7
+
+now = 7
 wrapped("sample7.jpg");
 pause(0.5)
 clear all;
 close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=8
+
+now = 8
 wrapped("sample8.jpg");
-pause(0.5)
-clear all;
-close all;
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS=9
-wrapped("sample9.jpg");
+
