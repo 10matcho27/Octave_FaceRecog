@@ -6,7 +6,7 @@ threshold = 113;
 height = 1.8;
 width = 1;
 partition = 5;
-%小さいほど高精度
+%大きいほど高精度
 
 %--read image--
 imdata = imread("sample5.jpg");
